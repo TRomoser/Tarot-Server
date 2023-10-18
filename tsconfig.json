@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Recommended for most projects */
+    "resolveJsonModule": true, /* Enable importing .json files. Useful if you use configuration files or other JSON data. */
+    "moduleResolution": "node", /* Typical module resolution strategy for Node.js projects. */
+    "baseUrl": "./", /* Set the base directory. Useful for setting up paths and module resolution. */
+    "outDir": "./dist", /* If you compile your TypeScript to JavaScript, it's a good practice to put the compiled JS into a separate folder. */
+    "declaration": true, /* Generate .d.ts files which can be useful if you're building a library or just want type definitions. */
+    "sourceMap": true, /* Create source maps for easier debugging. */
+
+    /* Type-checking enhancements */
+    "noImplicitAny": true, /* Avoid 'any' types inferred by TypeScript. */
+    "noUnusedLocals": true, /* Flag unused local variables - helps keep code clean. */
+    "noUnusedParameters": true, /* Flag unused function parameters. */
+
+    /* Other recommendations - Uncomment based on your need */
+    "allowJs": true, /* If you want to allow JavaScript files to be compiled alongside TypeScript. */
+    "checkJs": true, /* If you want TypeScript to type-check your JavaScript files. */
+    "jsx": "react", /* Uncomment if you're using React with JSX. */
+  }
+}
